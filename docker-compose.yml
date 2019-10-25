@@ -22,9 +22,3 @@ services:
     volumes:
       - .:/usr/src/app
     entrypoint: nim c -r
-  docs:
-    build: .
-    image: norm
-    volumes:
-      - .:/usr/src/app
-    command: "nim doc --project /usr/src/app/src/norm.nim"
