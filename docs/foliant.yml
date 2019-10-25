@@ -1,0 +1,16 @@
+title: "Norm: ORM for Nim Apps"
+slug: norm-docs
+
+chapters:
+  - index.md
+  - quickstart.md
+  - changelog.md
+
+escape_code: true
+
+preprocessors:
+  - includes
+
+backend_config:
+  mkdocs:
+    mkdocs.yml: !include mkdocs.yml

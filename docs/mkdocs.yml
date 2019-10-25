@@ -1,0 +1,23 @@
+repo_url: https://github.com/moigagoo/norm
+edit_uri: edit/develop/docs/src/
+
+theme:
+  name: material
+  palette:
+    primary: black
+    accent: pink
+
+extra:
+  social:
+    - type: github
+      link: https://github.com/moigagoo/norm
+
+markdown_extensions:
+  - codehilite
+  - toc:
+      permalink: true
+  - admonition
+
+copyright: >
+  <p>Created by <a href="https://github.com/moigagoo/">Constantine Molchanov</a>
+  using <a href="https://foliant.rocks">Foliant</a>.</p>
