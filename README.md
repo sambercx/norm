@@ -1,27 +1,30 @@
-# Norm, a Nim ORM
+# Norm: ORM for Nim Apps
 
 [![Build Status](https://travis-ci.com/moigagoo/norm.svg?branch=develop)](https://travis-ci.com/moigagoo/norm)
 
 [![Nimble](https://raw.githubusercontent.com/yglukhov/nimble-tag/master/nimble.png)](https://nimble.directory/pkg/norm)
 
+**Norm** is an object-oriented, framework-agnostic ORM for Nim apps.
 
-**Norm** is a lightweight ORM written in [Nim programming language](https://nim-lang.org). It enables you to store Nim's objects as DB rows and fetch data from DB as objects. So that your business logic is driven with objects, and the storage aspect is decoupled from it.
+Norm:
 
-Norm supports SQLite and PostgreSQL.
-
-- [Quickstart →](#Quickstart)
-- [API docs →](https://moigagoo.github.io/norm/norm.html)
-- [Sample app →](https://github.com/moigagoo/norm-sample-webapp)
-- [Contributing info →](#contributing)
+- automatically converts data between Nim and SQL types
+- generates DB schema from regular Nim object definitions
+- provides procs to query and modify data in DB through Nim objects
+- provides procs for writing migration scripts
+- allows to wrap DB actions in automatically reversable transactions
+- supports SQLite and PostgreSQL
 
 
 ## Installation
 
-Install Norm with Nimble:
+1.  Install Norm with [Nimble](https://github.com/nim-lang/nimble/):
 
-```shell
-$ nimble install norm
-```
+        $ nimble install norm
+
+2.  Add Norm to your .nimble file:
+
+        requires "nim >= 1.0.0", "norm"
 
 
 ## Quickstart
@@ -85,13 +88,6 @@ withDb:
 ```
 
 
-## Disclaimer
-
-My goal with Norm was to lubricate the routine of working with DB: creating DB schema from the object model and converting data between DB and object representations. It's a tool for *common* cases not for *all* cases. Norm's builtin CRUD procs will help you write a typical RESTful API, but as your app grows more complex, you will have to write SQL queries manually (btw Norm can help with that too).
-
-**Using any ORM, Norm included, doesn't free a programmer from having to learn SQL!**
-
-
 ## Contributing
 
 1.  Any contributions are welcome, be it pull requests, code reviews, documentation improvements, bug reports, or feature requests.
@@ -110,7 +106,4 @@ $ nim c -r tests/testsqlite.nim                   # run a single test suite nati
 
 4.  New procs must have a documentation comment. If you modify an existing proc, update the comment.
 
-
-### ❤ Contributors ❤
-
-https://github.com/moigagoo/norm/graphs/contributors
+[❤ Contributors ❤](https://github.com/moigagoo/norm/graphs/contributors)
