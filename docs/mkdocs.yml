@@ -4,8 +4,10 @@ edit_uri: edit/develop/docs/src/
 theme:
   name: material
   palette:
-    primary: black
-    accent: pink
+    primary: blue
+    accent: blue
+  logo: assets/pyramid.svg
+  favicon: assets/pyramid.ico
 
 extra:
   social:
@@ -21,3 +23,5 @@ markdown_extensions:
 copyright: >
   <p>Created by <a href="https://github.com/moigagoo/">Constantine Molchanov</a>
   using <a href="https://foliant.rocks">Foliant</a>.</p>
+
+  <p>Icons made by <a href="https://www.flaticon.com/authors/xnimrodx" title="xnimrodx">xnimrodx</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.</p>
