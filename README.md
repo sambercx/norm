@@ -15,13 +15,13 @@
 
 ## Installation
 
-1.  Install Norm with [Nimble](https://github.com/nim-lang/nimble/):
+Install Norm with [Nimble](https://github.com/nim-lang/nimble/):
 
-        $ nimble install norm
+    $ nimble install norm
 
-2.  Add Norm to your .nimble file:
+Add Norm to your .nimble file:
 
-        requires "nim >= 1.0.0", "norm"
+    requires "nim >= 1.0.0", "norm"
 
 
 ## Quickstart
