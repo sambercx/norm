@@ -1,7 +1,6 @@
 # Norm: ORM for Nim Apps
 
 [![Build Status](https://travis-ci.com/moigagoo/norm.svg?branch=develop)](https://travis-ci.com/moigagoo/norm)
-
 [![Nimble](https://raw.githubusercontent.com/yglukhov/nimble-tag/master/nimble.png)](https://nimble.directory/pkg/norm)
 
 **Norm** is an object-oriented, framework-agnostic ORM for Nim apps that:
@@ -104,4 +103,4 @@ $ nim c -r tests/testsqlite.nim                   # run a single test suite nati
 
 4.  New procs must have a documentation comment. If you modify an existing proc, update the comment.
 
-[❤ Contributors ❤](https://github.com/moigagoo/norm/graphs/contributors)
+### [❤ Contributors ❤](https://github.com/moigagoo/norm/graphs/contributors)
