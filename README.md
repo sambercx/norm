@@ -4,9 +4,7 @@
 
 [![Nimble](https://raw.githubusercontent.com/yglukhov/nimble-tag/master/nimble.png)](https://nimble.directory/pkg/norm)
 
-**Norm** is an object-oriented, framework-agnostic ORM for Nim apps.
-
-Norm:
+**Norm** is an object-oriented, framework-agnostic ORM for Nim apps that:
 
 - automatically converts data between Nim and SQL types
 - generates DB schema from regular Nim object definitions
