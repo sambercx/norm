@@ -3,6 +3,7 @@ slug: norm-docs
 
 chapters:
   - index.md
+  - contributing.md
   - changelog.md
 
 escape_code: true

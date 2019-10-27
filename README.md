@@ -86,22 +86,4 @@ withDb:
 ```
 
 
-## Contributing
-
-1.  Any contributions are welcome, be it pull requests, code reviews, documentation improvements, bug reports, or feature requests.
-
-2.  If you decide to contribute through code, please run the tests after you change the code:
-
-```shell
-$ docker-compose run tests                        # run all tests in Docker
-$ docker-compose run test tests/testpostgres.nim  # run a single test suite in Docker
-$ nimble test                                     # run all tests natively;
-                                                  # requires a running PostgreSQL server!
-$ nim c -r tests/testsqlite.nim                   # run a single test suite natively
-```
-
-3.  Use camelCase instead of snake_case.
-
-4.  New procs must have a documentation comment. If you modify an existing proc, update the comment.
-
-### [❤ Contributors ❤](https://github.com/moigagoo/norm/graphs/contributors)
+## [❤ Contributors ❤](https://github.com/moigagoo/norm/graphs/contributors)
