@@ -4,8 +4,8 @@ edit_uri: edit/develop/docs/src/
 theme:
   name: material
   palette:
-    primary: blue
-    accent: blue
+    primary: white
+    accent: pink
   logo: assets/pyramid.svg
   favicon: assets/pyramid.ico
 
