@@ -4,6 +4,7 @@
 
 *.exe
 *.html
+*.log
 
 *.mkdocs
 .*cache
