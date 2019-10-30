@@ -5,9 +5,9 @@ Any contributions are welcome, be it pull requests, code reviews, documentation 
 
 ## Contributing through Code
 
-1.  See the [issues on GitHub](http://github.com/moigagoo/norm/issues).
+-   See the [issues on GitHub](http://github.com/moigagoo/norm/issues).
 
-2.  Run the tests before and after you change the code.
+-   Run the tests before and after you change the code.
 
     The recommended way to run the tests is via [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/):
 
@@ -23,9 +23,9 @@ Any contributions are welcome, be it pull requests, code reviews, documentation 
         $ nim c -r tests/tsqlite.nim    # doesn't require PostgreSQL servers, but requires SQLite
         $ nim c -r tests/tobjutils.nim  # doesn't require anything at all
 
-3.  Use camelCase instead of snake_case.
+-   Use camelCase instead of snake_case.
 
-4.  New procs must have a documentation comment. If you modify an existing proc, update the comment.
+-   New procs must have a documentation comment. If you modify an existing proc, update the comment.
 
 
 ## Contributing through Docs
@@ -38,4 +38,4 @@ To build the docs site locally, use Docker Compose:
 
     $ docker-compose -p norm -f docs/docker-compose.yml run --rm docs make site
 
-The generated site will be placed in `docs/norm-docs.mkdocs`.
+The generated site is be placed in `docs/norm-docs.mkdocs`.
